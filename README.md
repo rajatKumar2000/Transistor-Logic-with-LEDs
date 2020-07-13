@@ -55,8 +55,18 @@ DTL was a slight improvement over RTL circuits due to its greater (fan-out)[http
 </p>
 
 <p align="center" style="vertical-align: top; position: relative">
-<img align="top" src="https://github.com/rajatKumar2000/Transistor-Logic-with-LEDs/blob/master/Media/RTL_NOT_falstad.gif"/>
+<img align="top" src="https://github.com/rajatKumar2000/Transistor-Logic-with-LEDs/blob/master/Media/DTL_NOT_falstad.gif"/>
 </p>
 
 [Simulated circuit of the NOT gate](https://www.falstad.com/circuit/circuitjs.html?cct=$+1+0.000005+10.20027730826997+54+5+50%0Ag+336+272+336+320+0%0Ar+240+176+240+96+0+4700%0Ar+336+96+336+176+0+1000%0Aw+336+176+336+240+0%0Aw+240+96+336+96+0%0At+288+256+336+256+0+1+-1.2376823587603747+0.4400315265762501+100%0Ad+240+256+288+256+2+default%0Ad+240+256+192+256+2+default%0AL+160+256+96+256+0+0+false+5+0%0AR+240+96+144+96+0+0+40+5+0+0+0.5%0Aw+240+176+240+224+0%0Aw+240+224+240+256+0%0A162+336+176+416+176+2+default-led+1+0+0+0.01%0Ag+416+176+416+224+0%0Ag+160+336+160+352+0%0A162+160+288+160+336+2+default-led+1+0+0+0.01%0Ar+160+256+160+288+0+1000%0Aw+160+256+192+256+0%0A)
-
+<br>
+<br>
+In the simulated circuit gif, the input is described as either L (0V) or H (5V). So when building this on my breadboard, I had to use two exposed wires to simulate the inputs.
+When the input node is being touched by the red wire (VCC), then the input is 5V. When it is being touched by the orange wire (ground), then the input is 0V.
+<br>
+<br>
+A common misconception would be to think that not having anything touching the input node, would result in 0V, but this is false.
+The voltage difference between the input node and ground would be around 1V, this is a result of how the other components are reacting in the circuit. 
+<br>
+<br>
+So, when VCC or ground is not touching the input node, we can say that there is no logical 0 or 1 input, thus the output is not logical either.
