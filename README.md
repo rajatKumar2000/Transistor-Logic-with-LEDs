@@ -46,7 +46,7 @@ RTL is rarely used in modern digital circuits, but was used quite often in the p
 
 ## Diode-Transistor Logic (DTL):
 DTL circuits use diodes to perform the logical operations of the intended logic gate. The transistors are used as inverting amplifiers.<br>
-DTL was a slight improvement over RTL circuits due to its greater (fan-out)[https://en.wikipedia.org/wiki/Fan-out] capabilities.
+DTL was a slight improvement over RTL circuits due to its greater [fan-out](https://en.wikipedia.org/wiki/Fan-out) capabilities.
 
 ### NOT Gate:
 
