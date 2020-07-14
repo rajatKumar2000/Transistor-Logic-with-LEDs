@@ -70,3 +70,22 @@ The voltage difference between the input node and ground would be around 1V, thi
 <br>
 <br>
 So, when VCC or ground is not touching the input node, we can say that there is no logical 0 or 1 input, thus the output is not logical either.
+
+## Transistor-Transistor Logic (TTL):
+TTL circuits use transistors to perform both the logical operations and the amplification function.<br>
+In comparasion to RTL and DTL, TTL circuits were a massive improvement in speed and power consumption.
+
+### NOT Gate:
+
+<p align="center" style="vertical-align: top; position: relative">
+<img align="top" src="https://github.com/rajatKumar2000/Transistor-Logic-with-LEDs/blob/master/Media/TTL_NOT_physical.gif"/>
+</p>
+
+<p align="center" style="vertical-align: top; position: relative">
+<img align="top" src="https://github.com/rajatKumar2000/Transistor-Logic-with-LEDs/blob/master/Media/TTL_NOT_falstad.gif"/>
+</p>
+
+[Simulated circuit of the NOT gate](https://www.falstad.com/circuit/circuitjs.html?cct=$+1+0.000005+10.20027730826997+54+5+50%0AR+192+112+112+112+0+0+40+5+0+0+0.5%0Ar+352+112+352+192+0+1000%0Aw+352+192+352+224+0%0At+192+192+192+240+0+1+0.5897979461877102+-3.7608606662210837+100%0At+288+240+352+240+0+1+0.6064001768814519+0.6493413875912059+100%0Aw+208+240+288+240+0%0AL+128+240+80+240+0+1+false+5+0%0Ag+352+256+352+336+0%0Aw+192+112+352+112+0%0Ar+192+112+192+192+0+4700%0A162+352+192+448+192+2+default-led+1+0+0+0.01%0Ag+448+192+448+240+0%0A162+128+288+128+320+2+default-led+1+0+0+0.01%0Ar+128+240+128+288+0+1000%0Aw+128+240+176+240+0%0Ag+128+320+128+336+0%0A)
+<br>
+<br>
+Similar to my DTL NOT gate circuit, I had to use two exposed wires to simulate the logical 0 and 1 input.
